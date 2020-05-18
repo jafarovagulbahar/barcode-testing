@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BarCode New</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" href="img/lines.png">
+</head>
+<body>
+
+	 <div class="container">
+     <div class="wrapper">
+        <div class="img">
+          <h3>Test whether your product is <span>false</span> or <span>true</span>.</h3>
+           <img src="img/barcode.png">
+         </div>
+        <!--  -------------------- -->
+         <div class="result">
+           <div id="result"></div>
+         </div>
+        <!--  ---------------------- -->
+         <div class="input_button">
+           <input type="text" id="barcode" name="barcode" maxlength="13" placeholder="Please write 13-digit code!">
+           <button onclick="BarCodeFn();">Result is now !</button>
+           <a href="https://tr.wikipedia.org/wiki/Barkod" target="_blank"><img src="img/info.png"></a>
+         </div>
+     </div>
+    </div>
+</body>
+</html>
